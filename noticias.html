@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<header >
+      
+    <div class="logo">   
+        <a href="index.html">
+            <img src="img/header-logo.png" alt="logo_mcn">
+        </a>
+    </div>
+
+    <div class="ad">
+        <a href="index.html">AD MARCO 09</a>
+    </div>
+
+
+    <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large"
+        onclick="w3_close()">Close &times;</button>
+        <a href="historia.html" class="w3-bar-item w3-button">Historia do Clube</a>
+        <a href="estadio.html" class="w3-bar-item w3-button">Estadio</a>
+        <a href="plantel.html" class="w3-bar-item w3-button">Plantel</a>
+        <a href="tecnica.html" class="w3-bar-item w3-button">Equipa Tecnica e Staff</a>
+        <a href="feminino.html" class="w3-bar-item w3-button">Futebol Feminino</a>
+        <a href="formacao.html" class="w3-bar-item w3-button">Formaçao</a>
+        <a href="noticias.html" class="w3-bar-item w3-button">Noticias</a>
+        <a href="contactos.html" class="w3-bar-item w3-button">Contactos</a>
+      </div>
+      
+      <div>
+        <button class="w3-button w3-white custom-button" onclick="w3_open()">☰</button>
+      </div>
+      
+      <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+        </script>
+
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="#">Clube</a>
+                <div class="dropdown-content">
+                    <a href="historia.html">Historia do Clube</a>
+                    <a href="#">Estrutura</a>
+                    <a href="estadio.html">Estadio</a>
+                </div>
+            </li>
+            <li  class="dropdown">
+                <a href="#">Futebol</a>
+                <div class="dropdown-content">
+                    <a href="plantel.html">Plantel</a>
+                    <a href="tecnica.html">Equipa Tecnica e Staff</a>
+                    <a href="feminino.html">Futebol Feminino</a>
+                    <a href="formacao.html">Formaçao</a>
+                </div>
+            </li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
+
+    
+
+   
+</header>
+<body>
+
+    <div class="banner">
+        <div class="banner-overlay"></div>
+        <img src="img/banner.jpg" alt="">
+        <div class="retangulo">
+        </div>>
+        <ol class="caminho-de-pagina">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="noticias.html">noticias</a></li>
+        </ol>
+    </div>
+
+
+    <div class="plantel-titulo">
+        <h1>Noticias</h1>
+    </div>
+
+    <div class="news-tiles">
+        <a href="noticia1.html" class="news-link">
+            <div class="news-tile">
+                <img src="img/marco09-plantel.jpg" alt="News 1">
+                <h3>News Title 1</h3>
+            </div>
+        </a>
+        <a href="noticia2.html" class="news-link">
+            <div class="news-tile">
+                <img src="img/marco09-plantel.jpg" alt="News 2">
+                <h3>News Title 2</h3>
+            </div>
+        </a>
+        <a href="noticia3.html" class="news-link">
+            <div class="news-tile">
+                <img src="img/marco09-plantel.jpg" alt="News 3">
+                <h3>News Title 3</h3>
+            </div>
+        </a>
+    </div>
+    <div class="news-tiles">
+        <a href="noticia1.html" class="news-link">
+            <div class="news-tile">
+                <img src="img/marco09-plantel.jpg" alt="News 1">
+                <h3>News Title 1</h3>
+            </div>
+        </a>
+        <a href="noticia2.html" class="news-link">
+            <div class="news-tile">
+                <img src="img/marco09-plantel.jpg" alt="News 2">
+                <h3>News Title 2</h3>
+            </div>
+        </a>
+        <a href="noticia3.html" class="news-link">
+            <div class="news-tile">
+                <img src="img/marco09-plantel.jpg" alt="News 3">
+                <h3>News Title 3</h3>
+            </div>
+        </a>
+    </div>
+
+
+<br><br><br>
+    
+
+
+
+
+<footer>
+        <div class="logo-footer">
+            <img src="img/footer-logo.png" alt="logof_mcn">
+        </div>
+    
+        <div class="texto-footer">
+            <p>Uma clube <br><br>uma cidade <br><br>uma só paixão</p>
+        </div>
+    
+        <div class="social-media">
+            <div class="insta">
+                <a href="URL_DO_SEU_PERFIL_DO_INSTAGRAM">
+                    <img src="img/insta.png" alt="instagram">
+                </a>
+            </div>
+            <div class="face">
+                <a href="URL_DA_SUA_PAGINA_DO_FACEBOOK">
+                    <img src="img/face.png" alt="facebook">
+                </a>
+            </div>
+        </div>
+        
+</footer>
+    
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<header >
+      
+    <div class="logo">   
+        <a href="index.html">
+            <img src="img/header-logo.png" alt="logo_mcn">
+        </a>
+    </div>
+
+    <div class="ad">
+        <a href="index.html">AD MARCO 09</a>
+    </div>
+
+
+    <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large"
+        onclick="w3_close()">Close &times;</button>
+        <a href="historia.html" class="w3-bar-item w3-button">Historia do Clube</a>
+        <a href="estadio.html" class="w3-bar-item w3-button">Estadio</a>
+        <a href="plantel.html" class="w3-bar-item w3-button">Plantel</a>
+        <a href="tecnica.html" class="w3-bar-item w3-button">Equipa Tecnica e Staff</a>
+        <a href="feminino.html" class="w3-bar-item w3-button">Futebol Feminino</a>
+        <a href="formacao.html" class="w3-bar-item w3-button">Formaçao</a>
+        <a href="noticias.html" class="w3-bar-item w3-button">Noticias</a>
+        <a href="contactos.html" class="w3-bar-item w3-button">Contactos</a>
+      </div>
+      
+      <div>
+        <button class="w3-button w3-white custom-button" onclick="w3_open()">☰</button>
+      </div>
+      
+      <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+        </script>
+
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="#">Clube</a>
+                <div class="dropdown-content">
+                    <a href="historia.html">Historia do Clube</a>
+                    <a href="#">Estrutura</a>
+                    <a href="estadio.html">Estadio</a>
+                </div>
+            </li>
+            <li  class="dropdown">
+                <a href="#">Futebol</a>
+                <div class="dropdown-content">
+                    <a href="plantel.html">Plantel</a>
+                    <a href="tecnica.html">Equipa Tecnica e Staff</a>
+                    <a href="feminino.html">Futebol Feminino</a>
+                    <a href="formacao.html">Formaçao</a>
+                </div>
+            </li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
+
+    
+
+   
+</header>
+<body>
+
+    <div class="banner">
+        <div class="banner-overlay"></div>
+        <img src="img/banner.jpg" alt="">
+        <div class="retangulo">
+        </div>>
+        <ol class="caminho-de-pagina">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ol>
+    </div>
+
+
+    <div class="plantel-titulo">
+        <h1>Contactos</h1>
+    </div>
+
+
+
+
+    <div class="text-contact">
+        <h3>
+            Sede/Estadio
+        </h3>
+        <p>
+            O Estádio Municipal do Marco de Canaveses, conhecido anteriormente como Estádio Avelino Ferreira Torres, é uma infraestrutura desportiva localizada no Marco de Canaveses. Com capacidade para entre 10.000 e 12.000 espectadores.
+        </p>
+        <h3>
+            Horario de Atendimento
+        </h3>
+        <p>
+            09:30 - 12:30 <br>
+            14:00 - 19:00
+        </p>
+        <h3>
+            Contactos
+        </h3>
+        <p>
+            servicosmarco09@gmail.com
+        </p>
+
+
+    </div>
+
+    <div id="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6004.650325192898!2d-8.142507!3d41.192884!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sus!4v1710113108069!5m2!1spt-PT!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+
+<footer>
+        <div class="logo-footer">
+            <img src="img/footer-logo.png" alt="logof_mcn">
+        </div>
+    
+        <div class="texto-footer">
+            <p>Uma clube <br><br>uma cidade <br><br>uma só paixão</p>
+        </div>
+    
+        <div class="social-media">
+            <div class="insta">
+                <a href="URL_DO_SEU_PERFIL_DO_INSTAGRAM">
+                    <img src="img/insta.png" alt="instagram">
+                </a>
+            </div>
+            <div class="face">
+                <a href="URL_DA_SUA_PAGINA_DO_FACEBOOK">
+                    <img src="img/face.png" alt="facebook">
+                </a>
+            </div>
+        </div>
+        
+</footer>
+    
+
+</body>
+</html>
