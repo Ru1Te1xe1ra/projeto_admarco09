@@ -320,8 +320,6 @@ input, select {
   .news-tile img {
     width: 300px; /* Ajustando a largura da imagem para preencher o tile */
     height: auto; /* Permitindo que a altura seja ajustada automaticamente */
-    padding-left: 30px;
-    padding-right: 30px;
   }
   
   .news-link {
